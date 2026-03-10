@@ -1,12 +1,6 @@
-# AthleAgent-App
 
-Got it! My apologies. Here is the complete text for your `README.md` file, 100% in English. Just copy everything inside the block below and paste it directly into your file:
+# AthleAgent 
 
-
-# AthleAgent - Athlete & Coach Management Platform
-
-**Author:** Yahav
-**Project Type:** Final Project for B.Sc. in Computer Science
 
 ## 📖 Overview
 AthleAgent is a comprehensive mobile platform designed to bridge the gap between athletes and their coaches. The application tracks daily health metrics, wearable data, dietary intake, and psychological check-ins to monitor athlete well-being and generate a daily "Risk Score" for injury prevention. 
