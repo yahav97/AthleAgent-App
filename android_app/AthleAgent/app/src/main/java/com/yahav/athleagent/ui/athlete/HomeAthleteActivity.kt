@@ -41,8 +41,6 @@ class HomeAthleteActivity : AppCompatActivity() {
     private val getContentLauncher = registerForActivityResult(ActivityResultContracts.GetContent()) { uri ->
         if (uri != null) {
             openAnalyzingActivity(uri.toString())
-        } else {
-            Toast.makeText(this, "No image selected", Toast.LENGTH_SHORT).show()
         }
     }
 
