@@ -35,7 +35,7 @@ The platform features two distinct user flows managed via **Google Authenticatio
 
 ## 🧠 Design Philosophy
 
-[cite_start]Designed specifically for the demands of professional sport, our architecture prioritizes: 
+Designed specifically for the demands of professional sport, our architecture prioritizes: 
 
 * **Usability:** A simple, intuitive interface that minimizes manual data entry. 
 * **Reliability:** Robust handling of missing data and resilience to external service outages. 
@@ -52,8 +52,8 @@ The platform features two distinct user flows managed via **Google Authenticatio
 
 ### Prerequisites
 * Android Studio (Latest Version)
-* [cite_start]Physical Android device (Recommended) with [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata) installed. 
-* [cite_start]Google Gemini API Key (for the Nutrition Vision API features). [cite: 1]
+* Physical Android device (Recommended) with [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata) installed. 
+* Google Gemini API Key (for the Nutrition Vision API features). [cite: 1]
 
 ### Installation
 1.  Clone the repository:
@@ -68,4 +68,4 @@ The platform features two distinct user flows managed via **Google Authenticatio
 4.  Sync the project with Gradle files and run the application.
 
 ---
-[cite_start]*Developed by Yahav Simon & Tzuf Feldon as a final degree project.*
+
