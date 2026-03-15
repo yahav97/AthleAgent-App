@@ -44,7 +44,9 @@ Designed specifically for the demands of professional sport, our architecture pr
 
 ## 📱 Screenshots
 
-| <img src="[URL_TO_IMAGE_1](https://github.com/yahav97/AthleAgent-App/blob/main/assets/archi.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_2](https://github.com/yahav97/AthleAgent-App/blob/main/assets/workflow.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_3](https://github.com/yahav97/AthleAgent-App/blob/main/assets/screens.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_4](https://github.com/yahav97/AthleAgent-App/blob/main/assets/Athlete.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_4](https://github.com/yahav97/AthleAgent-App/blob/main/assets/coach.png?raw=true)" width="200"/> | 
+| Architecture | Workflow | Screens | Athlete View | Coach View |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="https://github.com/yahav97/AthleAgent-App/blob/main/assets/archi.png?raw=true" width="200"/> | <img src="https://github.com/yahav97/AthleAgent-App/blob/main/assets/workflow.png?raw=true" width="200"/> | <img src="https://github.com/yahav97/AthleAgent-App/blob/main/assets/screens.png?raw=true" width="200"/> | <img src="https://github.com/yahav97/AthleAgent-App/blob/main/assets/Athlete.png?raw=true" width="200"/> | <img src="https://github.com/yahav97/AthleAgent-App/blob/main/assets/coach.png?raw=true" width="200"/> |
 
 
 ## 🚀 Getting Started
@@ -57,7 +59,7 @@ Designed specifically for the demands of professional sport, our architecture pr
 ### Installation
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/AthleAgent.git](https://github.com/YOUR_USERNAME/AthleAgent.git)
+   git clone https://github.com/yahav97/AthleAgent-App.git
     ```
 2.  Open the project in Android Studio.
 3.  Add your API Key to the `local.properties` file:
