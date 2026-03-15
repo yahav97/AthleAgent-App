@@ -44,16 +44,15 @@ Designed specifically for the demands of professional sport, our architecture pr
 
 ## 📱 Screenshots
 
-| Daily Check-in | Meal Analysis | Health Connect Sync | Daily Risk Score |
-| :---: | :---: | :---: | :---: |
-| <img src="URL_TO_IMAGE_1" width="200"/> | <img src="URL_TO_IMAGE_2" width="200"/> | <img src="URL_TO_IMAGE_3" width="200"/> | <img src="URL_TO_IMAGE_4" width="200"/> |
+| <img src="[URL_TO_IMAGE_1](https://github.com/yahav97/AthleAgent-App/blob/main/assets/archi.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_2](https://github.com/yahav97/AthleAgent-App/blob/main/assets/workflow.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_3](https://github.com/yahav97/AthleAgent-App/blob/main/assets/screens.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_4](https://github.com/yahav97/AthleAgent-App/blob/main/assets/Athlete.png?raw=true)" width="200"/> | <img src="[URL_TO_IMAGE_4](https://github.com/yahav97/AthleAgent-App/blob/main/assets/coach.png?raw=true)" width="200"/> | 
+
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 * Android Studio (Latest Version)
 * Physical Android device (Recommended) with [Health Connect](https://play.google.com/store/apps/details?id=com.google.android.apps.healthdata) installed. 
-* Google Gemini API Key (for the Nutrition Vision API features). [cite: 1]
+* Google Gemini API Key (for the Nutrition Vision API features). 
 
 ### Installation
 1.  Clone the repository:
