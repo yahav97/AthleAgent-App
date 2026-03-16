@@ -62,18 +62,20 @@ Designed specifically for the demands of professional sport, our architecture pr
 * Firebase Project Setup.
 
 ### Installation
-1.Clone the repository:
-   bash:
+
+1. Clone the repository:
+   ```bash
    git clone [https://github.com/yahav97/AthleAgent-App.git](https://github.com/yahav97/AthleAgent-App.git)
-   
-2.Open the project in Android Studio.   
+   ```
+2. Open the project in Android Studio.
+3. Add your Gemini API Key to the `local.properties` file:
+   ```properties
+   GEMINI_API_KEY=your_api_key_here
+   ```
+4. Obtain a `google-services.json` file from your Firebase console and place it in the `app/` directory.
+5. Sync the project with Gradle files and run the application.
 
-
-Add your Gemini API Key to the local.properties file:
-
-Properties
-GEMINI_API_KEY=your_api_key_here
-Obtain a google-services.json file from your Firebase console and place it in the app/ directory.
-
-Sync the project with Gradle files and run the application.
-   
+## 👨‍💻 Authors
+* **Yahav Simon** - [GitHub](https://github.com/yahav97)
+* **Tzuf Feldon** ## 📄 License
+This project is licensed under the MIT License.
