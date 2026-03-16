@@ -62,8 +62,8 @@ Designed specifically for the demands of professional sport, our architecture pr
 * Firebase Project Setup.
 
 ### Installation
-1. Clone the repository:
-   '''bash
+1.Clone the repository:
+   bash:
    git clone [https://github.com/yahav97/AthleAgent-App.git](https://github.com/yahav97/AthleAgent-App.git)
    
 2.Open the project in Android Studio.   
