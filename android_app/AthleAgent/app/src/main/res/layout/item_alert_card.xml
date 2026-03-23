@@ -4,9 +4,9 @@
     android:id="@+id/alert_card_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="4dp"
-    android:layout_marginTop="4dp"
-    app:cardCornerRadius="16dp"
+    android:layout_marginBottom="@dimen/spacing_4"
+    android:layout_marginTop="@dimen/spacing_4"
+    app:cardCornerRadius="@dimen/spacing_16"
     app:cardElevation="2dp"
     app:strokeWidth="1.5dp">
 
@@ -15,18 +15,18 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:padding="16dp">
+        android:padding="@dimen/spacing_16">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/alert_icon"
-            android:layout_width="32dp"
-            android:layout_height="32dp" />
+            android:layout_width="@dimen/spacing_32"
+            android:layout_height="@dimen/spacing_32" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/alert_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="@dimen/spacing_16"
             android:fontFamily="@font/roboto_bold"
             android:textColor="@color/text"
             android:textSize="@dimen/text_size_input_bigger" />

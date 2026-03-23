@@ -62,7 +62,11 @@
                     android:paddingVertical="@dimen/spacing_8"
                     android:text="@string/Team_name"
                     android:textColor="@color/brand_button_light_muted"
-                    android:textSize="@dimen/text_size_input_bigger" />
+                    android:textSize="@dimen/text_size_input_bigger"
+                    app:drawableEndCompat="@drawable/outline_group_add_24"
+                    android:drawablePadding="@dimen/spacing_10"
+                    app:drawableTint="@color/brand_button_light_muted"
+                    />
 
             </RelativeLayout>
 
@@ -76,14 +80,14 @@
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/athleteHome_TAB_alerts"
                 android:layout_width="wrap_content"
-                android:layout_height="12dp"
+                android:layout_height="@dimen/spacing_12"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/spacing_24"
                 android:background="@android:color/transparent"
                 app:tabBackground="@drawable/bg_tab_indicator"
                 app:tabIndicatorHeight="0dp"
-                app:tabMaxWidth="8dp"
-                app:tabMinWidth="8dp"
+                app:tabMaxWidth="@dimen/spacing_8"
+                app:tabMinWidth="@dimen/spacing_8"
                 app:tabRippleColor="@null" />
 
             <com.google.android.material.card.MaterialCardView

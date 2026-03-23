@@ -22,7 +22,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.yahav.athleagent.R
 import com.yahav.athleagent.databinding.ActivityHomeAthleteBinding
 import com.yahav.athleagent.model.AlertItem
-import com.yahav.athleagent.ui.athlete.AlertsAdapter
 import com.yahav.athleagent.ui.auth.LoginActivity
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -127,31 +126,41 @@ class HomeAthleteActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+// Fetches the user's name from Firebase
+    @SuppressLint("SetTextI18n")
     private fun fetchUserName() {
-        val currentUser = FirebaseAuth.getInstance().currentUser
-        var displayName = currentUser?.displayName
+    val currentUser = FirebaseAuth.getInstance().currentUser
+    var displayName = currentUser?.displayName
 
-        db.collection("users").document(userId).get()
-            .addOnSuccessListener { document ->
-                if (document.exists()) {
-                    val dbName = document.getString("fullName") ?: document.getString("firstName")
-                    if (!dbName.isNullOrEmpty()) {
-                        displayName = dbName
-                    }
+    db.collection("users").document(userId).get()
+        .addOnSuccessListener { document ->
+            if (document.exists()) {
+                val dbName = document.getString("fullName") ?: document.getString("firstName")
+                if (!dbName.isNullOrEmpty()) {
+                    displayName = dbName
                 }
+
                 val teamId = document.getString("teamId")
                 if (!teamId.isNullOrEmpty()) {
                     db.collection("teams").document(teamId).get().addOnSuccessListener { teamDoc ->
                         val teamName = teamDoc.getString("TeamName") ?: "Unknown Team"
                         binding.athleteHomeLBLTeamName.text = teamName
+
+                        binding.athleteHomeLBLTeamName.setCompoundDrawablesRelative(null, null, null, null)
+                        binding.athleteHomeLBLTeamName.setOnClickListener(null)
+                    }
+                } else {
+                    binding.athleteHomeLBLTeamName.setOnClickListener {
+                        startActivity(Intent(this@HomeAthleteActivity, JoinTeamActivity::class.java))
                     }
                 }
-                binding.athleteHomeLBLName.text = displayName ?: "Athlete"
             }
-            .addOnFailureListener {
-                binding.athleteHomeLBLName.text = displayName ?: "Athlete"
-            }
-    }
+            binding.athleteHomeLBLName.text = displayName ?: "Athlete"
+        }
+        .addOnFailureListener {
+            binding.athleteHomeLBLName.text = displayName ?: "Athlete"
+        }
+}
 
     private fun checkDailyDataStatus() {
         val today = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
