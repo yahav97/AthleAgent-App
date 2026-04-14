@@ -1,6 +1,5 @@
 # 🏃‍♂️ AthleAgent
 
-> **Shifting Athlete Care from Reaction to Prevention.**
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-Android-blue.svg)](https://kotlinlang.org/)
 [![AI](https://img.shields.io/badge/AI-Gemini_API-orange.svg)](https://deepmind.google/technologies/gemini/)
